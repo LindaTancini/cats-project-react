@@ -1,4 +1,5 @@
 import CatCounter from "./CatCounter";
+import CatFact from "./CatFact";
 import CatImage from "./CatImage";
 
 function Main() {
@@ -7,6 +8,7 @@ function Main() {
       <h2>Contenuto delle task ♥ </h2>
       <CatCounter />
       <CatImage />
+      <CatFact />
     </>
   );
 }

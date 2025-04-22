@@ -8,8 +8,8 @@ function CatAdoption() {
     console.log("Dati aggiornati:", { name, razza });
   }, [name, razza]);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (element) => {
+    element.preventDefault();
     alert(`Hai adottato ${name} (${razza})!`);
     // RESET DELL'INPUT
     setName("");
@@ -21,16 +21,18 @@ function CatAdoption() {
       <h4>Modulo di adozione gatto 🐾</h4>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Nome del gatto: </label>
+          <label htmlFor="name">Nome del gatto: </label>
           <input
+            id="name"
             type="text"
             value={name}
             onChange={(element) => setName(element.target.value)}
           />
         </div>
         <div>
-          <label>Razza del gatto: </label>
+          <label htmlFor="razza">Razza del gatto: </label>
           <input
+            id="razza"
             type="text"
             value={razza}
             onChange={(element) => setRazza(element.target.value)}

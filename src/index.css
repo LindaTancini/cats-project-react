@@ -32,6 +32,17 @@ p {
   margin: 10px 0;
 }
 
+h5 {
+  margin-top: 30px;
+  color: #bc6c25;
+  text-align: center;
+}
+
+div p {
+  text-align: center;
+  font-size: 16px;
+}
+
 /* DIV */
 div {
   text-align: center;

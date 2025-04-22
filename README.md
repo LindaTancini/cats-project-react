@@ -1,12 +1,5 @@
-# Tema gatto con React: useState e useEffect
-
-Questo repository contiene 10 esercizi pensati per aiutarmi a fare pratica con **useState** e **useEffect** in React.  
-Ogni esercizio è a tema gatto e si concentra esclusivamente su questi hook.  
-Non sono fornite soluzioni—il tuo obiettivo è implementare la funzionalità come descritto.
-
+# Progetto Gattoso!
 ---
-
-## Esercizi
 
 ### 1. Componente Contatore di Gatti
 
@@ -115,8 +108,5 @@ Non sono fornite soluzioni—il tuo obiettivo è implementare la funzionalità c
   - Assicurati che il cambio tema sia persistente per tutta la vita del componente.
 
 ---
-
-Ogni esercizio dovrebbe essere implementato nel suo **componente** all’interno del repository.  
-Considera di organizzarli in una cartella `components` o in pagine separate per mantenere la struttura ordinata.
 
 ### **Buon coding e goditi il tuo viaggio React a tema gatto!**

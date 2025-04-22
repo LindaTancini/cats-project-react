@@ -1,3 +1,4 @@
+//IMPORTAZIONI
 import { useEffect, useState } from "react";
 
 function CatShelter() {

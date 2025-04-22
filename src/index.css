@@ -68,3 +68,33 @@ img {
   margin-top: 10px;
   border: 3px solid #606c38;
 }
+
+/* FORM */
+
+form {
+  background-color: #ffffff;
+  border: 2px solid #dda15e;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #606c38;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

@@ -22,7 +22,7 @@ function CatFact() {
 
   return (
     <div>
-      <h4>Fatto divertente sui gatti:</h4>
+      <h4>Fatti sui gatti random:</h4>
       <p>{fact}</p>
       <button onClick={changeFact}>Carica un nuovo fatto</button>
     </div>

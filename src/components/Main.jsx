@@ -5,6 +5,7 @@ import CatCounter from "./CatCounter";
 import CatFact from "./CatFact";
 import CatHumor from "./CatHumor";
 import CatImage from "./CatImage";
+import CatModal from "./CatModal";
 import CatShelter from "./CatShelter";
 
 function Main() {
@@ -17,6 +18,7 @@ function Main() {
       <CatAdoption />
       <CatFact />
       <CatHumor />
+      <CatModal />
       <CatColorFavorite />
     </>
   );
